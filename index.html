@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a42d769547.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+    <div id = "header">
+        <div class ="container">
+            <nav>
+                <img src = "./images/logo.png"  class="logo">
+                <ul id="sidemenu">
+                    <li><a href ="#">Home</a></li>
+                    <li><a href="./#about">About</a></li>
+                    <li><a href="./#Project">Project</a></li>
+                    <li><a href="./#portfolio">Protfolio</a></li>
+                    <li><a href="./#contact">Contact</a></li>
+                
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                <img src="./images/sun.png"  id="icon">
+            </nav>
+            <div class ="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>Amritendu</span><br>  From Kolkata</h1>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- About-------------------------------- -->
+
+    <div id="about">
+        <div class ="container">
+            <div class ="row">
+                <div class="about-col-1">
+                    <img src="./images/user.PNG">
+                </div>
+                <div class="about-col-2">
+                   <h1 class="sub-title">About Me</h1>
+                   <p>
+                    I am Amritendu Pakhira, a B.Tech student at Chitkara University. My passion for coding drives me to explore the depths of programming, while I'm also developing an interest in UI/UX design. Beyond the digital realm, I find joy in playing cricket and badminton, diving into books, and embarking on adventures to unknown places. These experiences not only enrich my life but keep me motivated. As I pursue my education, I'm committed to expanding my technical skills and embracing the diverse facets of life. With a thirst for knowledge and a love for exploration, I am constantly evolving and embracing new challenges.
+                   </p>
+                   <div class="tab-titles">
+                    <p class="tab-links active-links " onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Design Web/App Interfaces</li>
+                       <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>Problem Solving</span><br>Java, C#, Android</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022, Febuary</span><br>Face Recognization Robot</li>
+                       <li><span>2023, April</span><br>Smart Healthcare System</li>
+                        <li><span>2022, November</span><br>Smart Attendence System</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2012-2019</span><br>10(91.87%)</li>
+                       
+                        <li><span>2019-2021</span><br>10+2(94.67%)</li>
+                        <li><span>2021-2025</span><br>B.E Software Engineering(C.G.P.A: 9.23)</li>
+                    </ul>
+                   </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- ------------serices------------ -->
+    <div id="Project">
+        <div class="container">
+            <h1 class="sub-title">Project</h1>
+             <div class="Projects-list">
+                <div>
+                    <i class="fa-solid fa-robot"></i>
+                    <h2>Face Following Robot</h2>
+
+                     <p>I created face following robot for human welfare. This technique helpful in hte future.Using a combination of cameras and sensors, it can detect facial features and movements in real-time, ensuring seamless and precise tracking. Whether for security applications, interactive experiences, or educational purposes, this robot offers diverse possibilities. </p>
+                     <a href="https://youtu.be/LXoSmVepxLI">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-clipboard-user"></i>
+                    <h2>Smart Attendance System</h2>
+
+                     <p>Design and implementation of a Smart Attendance System utilizing Raspberry Pi camera for facial recognition and audio detection. This documentation outlines hardware setup, software configuration, and integration of AI models for accurate identification. The system automates attendance marking, enhancing efficiency in diverse environments.</p>
+                     <a href="https://youtu.be/u0ZefdprpBk">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-suitcase-medical"></i>
+                    <h2>Smart Healthcare System</h2>
+
+                     <p>Creation of an IoT-powered Smart Healthcare System incorporating MongoDB database for seamless data storage and management. This solution efficiently collects and monitors patient health data via connected devices, calculates BMI (Body Mass Index), and offers real-time insights for medical practitioners. Enhancing patient care and health management through advanced technology.</p>
+                     <a href="https://drive.google.com/file/d/1hNXVKzvlS7a6GqnKIjuskZYucwqvhe3R/view?usp=drive_link">Learn more</a>
+                </div>
+             </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1><div class="sub-title">My Work and Awards</div></h1>
+            <div class ="work-list">
+                <div class="work">
+                    <img src="./images/work1.png"> 
+                    <div class="layer">
+                        
+                        <h3>Spotify website</h3>
+                        <p>Crafted a dynamic Spotify-themed website with interactive UI, real-time song playback, showcasing frontend expertise.</p>
+                        <a href="https://drive.google.com/file/d/1QUADZupCFBigROZ2MeJBqI8-_OmdwyU8/view?usp=drive_link"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="./images/work2.png">
+                    <div class="layer">
+                        <h3>Contactless Doorbell App</h3>
+                        <p>Designed a contactless doorbell app, streamlining visitor communication through mobile devices for enhanced convenience</p>
+                        <a href="https://youtu.be/IzBfoACuttM"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="./images/work4.png">
+                    <div class="layer">
+                       
+                        <h3>Innovative Robotics Achievement</h3>
+                        <p>Secured 3rd place with team in robotics contest, developed Face Recognition Robot aiding visually impaired.
+
+                        </p>
+                        <a href="https://www.linkedin.com/in/amritendu-pakhira-881697233/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------contact----------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>pakhiraamritendu@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8900564054</p>
+                    <div class="social-icons" >
+                        <a href="https://www.facebook.com/amritendupakhira.riju/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/AmritenduPakhi3"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/amritendupakhira123/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/amritendu-pakhira-881697233/"><i class="fa-brands fa-linkedin"></i></a>
+                        
+                    </div>
+                    <a href="images/resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" row="6" placeholder="Your Message"></textarea> 
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Amritendu. <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+     
+    <script>
+
+
+        var icon = document.getElementById("icon");
+
+    icon.addEventListener("click", function() {
+       
+        document.body.classList.toggle("light-theme");
+        if (document.body.classList.contains("light-theme")) {
+            icon.src = "./images/moon.png";
+        } else {
+            icon.src = "./images/sun.png";
+        }
+    });
+       var tablinks = document.getElementsByClassName("tab-links");
+
+        var tabblecontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-links");
+            }
+
+            for(tabblecontent of tabblecontents){
+                tabblecontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+
+            
+              
+             
+            
+        }
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right ="0";
+        }
+        function closemenu(){
+            sidemenu.style.right ="-200px";
+        }
+    </script>
+     
+</body>
+</html>
